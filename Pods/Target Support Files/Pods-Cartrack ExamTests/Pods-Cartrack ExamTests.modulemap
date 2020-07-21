@@ -1,0 +1,6 @@
+framework module Pods_Cartrack_ExamTests {
+  umbrella header "Pods-Cartrack ExamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

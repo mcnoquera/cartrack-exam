@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.2.0)
+  - lottie-ios (3.1.8)
+  - ObjectMapper (3.5.3)
+  - TextFieldEffects (1.6.0)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - lottie-ios
+  - ObjectMapper (~> 3.5)
+  - TextFieldEffects
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - ObjectMapper
+    - TextFieldEffects
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: 83940a42cdec862368735356886e96b31c04dd82
+
+COCOAPODS: 1.8.4

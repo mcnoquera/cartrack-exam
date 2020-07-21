@@ -24,6 +24,7 @@ class AuthenticationService {
         // Note: All declared user can be use as login authentication.
         db.insert(id: 1, "marco", "admin123".encryptText())
         db.insert(id: 2, "madison", "admin123".encryptText())
+        db.insert(id: 3, "martin", "admin123".encryptText())
     }
     
     

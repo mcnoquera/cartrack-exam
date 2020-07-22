@@ -22,7 +22,6 @@
 		AF9BB9DB24C6AE57008D8853 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BB9DA24C6AE57008D8853 /* UserDetailsViewController.swift */; };
 		AFA495D724C597D500C7068D /* CTColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA495D624C597D500C7068D /* CTColor.swift */; };
 		AFA495D924C5985200C7068D /* CTFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA495D824C5985200C7068D /* CTFontStyle.swift */; };
-		AFA495DB24C59DFD00C7068D /* MapLogo.json in Resources */ = {isa = PBXBuildFile; fileRef = AFA495DA24C59DFD00C7068D /* MapLogo.json */; };
 		AFA495DD24C5A4B700C7068D /* CTCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA495DC24C5A4B700C7068D /* CTCustomView.swift */; };
 		AFA495DF24C5DA9000C7068D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA495DE24C5DA9000C7068D /* UserViewModel.swift */; };
 		AFA495E124C5DB5200C7068D /* CTGenericViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA495E024C5DB5200C7068D /* CTGenericViewModel.swift */; };
@@ -42,6 +41,7 @@
 		AFBA5FDA24C58C0700CF6799 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA5FD924C58C0700CF6799 /* UserListViewModel.swift */; };
 		AFBA5FDC24C58C1800CF6799 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA5FDB24C58C1800CF6799 /* LoginViewModel.swift */; };
 		AFBA5FDE24C58C3200CF6799 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA5FDD24C58C3200CF6799 /* LoginViewController.swift */; };
+		AFDB195124C7D42000E32530 /* MapLogo.json in Resources */ = {isa = PBXBuildFile; fileRef = AFDB195024C7D42000E32530 /* MapLogo.json */; };
 		C31B4A03172CA8F2AC9ED47A /* Pods_Cartrack_Exam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F87F5C620EF24344ED014BC /* Pods_Cartrack_Exam.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,7 +88,6 @@
 		AF9BB9DA24C6AE57008D8853 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 		AFA495D624C597D500C7068D /* CTColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTColor.swift; sourceTree = "<group>"; };
 		AFA495D824C5985200C7068D /* CTFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFontStyle.swift; sourceTree = "<group>"; };
-		AFA495DA24C59DFD00C7068D /* MapLogo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MapLogo.json; path = ../../../../../Downloads/MapLogo.json; sourceTree = "<group>"; };
 		AFA495DC24C5A4B700C7068D /* CTCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTCustomView.swift; sourceTree = "<group>"; };
 		AFA495DE24C5DA9000C7068D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		AFA495E024C5DB5200C7068D /* CTGenericViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTGenericViewModel.swift; sourceTree = "<group>"; };
@@ -108,6 +107,7 @@
 		AFBA5FD924C58C0700CF6799 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		AFBA5FDB24C58C1800CF6799 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AFBA5FDD24C58C3200CF6799 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFDB195024C7D42000E32530 /* MapLogo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapLogo.json; sourceTree = "<group>"; };
 		DAA4D2307A143A5942146138 /* Pods-Cartrack ExamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartrack ExamTests.debug.xcconfig"; path = "Target Support Files/Pods-Cartrack ExamTests/Pods-Cartrack ExamTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E551F0492716987AE80C028F /* Pods-Cartrack Exam-Cartrack ExamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartrack Exam-Cartrack ExamUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cartrack Exam-Cartrack ExamUITests/Pods-Cartrack Exam-Cartrack ExamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E702A13DEBC84296FE6782CA /* Pods-Cartrack ExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartrack ExamTests.release.xcconfig"; path = "Target Support Files/Pods-Cartrack ExamTests/Pods-Cartrack ExamTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -285,7 +285,7 @@
 		AFBA5FD124C583EA00CF6799 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AFA495DA24C59DFD00C7068D /* MapLogo.json */,
+				AFDB195024C7D42000E32530 /* MapLogo.json */,
 				AFBA5FDD24C58C3200CF6799 /* LoginViewController.swift */,
 				AF184FDF24C17EFA0014EF7F /* UserListViewController.swift */,
 				AF9BB9DA24C6AE57008D8853 /* UserDetailsViewController.swift */,
@@ -436,7 +436,7 @@
 				AF184FE824C17EFF0014EF7F /* LaunchScreen.storyboard in Resources */,
 				AF184FE524C17EFF0014EF7F /* Assets.xcassets in Resources */,
 				AF184FE324C17EFA0014EF7F /* Main.storyboard in Resources */,
-				AFA495DB24C59DFD00C7068D /* MapLogo.json in Resources */,
+				AFDB195124C7D42000E32530 /* MapLogo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
